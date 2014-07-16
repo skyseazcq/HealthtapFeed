@@ -17,12 +17,22 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.chaoqun.healthtapfeed.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chaoqun.healthtapfeed.FeedAnswer"
+            android:label="@string/answerDetail"
+            android:parentActivityName="com.chaoqun.healthtapfeed.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
     </application>
 
