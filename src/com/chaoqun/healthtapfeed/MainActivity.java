@@ -190,7 +190,7 @@ public class MainActivity extends ListActivity {
 			try {
 
 				String email = "chaoqunzhu@yahoo.com"; // "Your Email"; //
-				String password = "649855425";// "Your password";//
+				String password =  "Your password";//
 
 				List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(
 						3);
